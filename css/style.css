@@ -105,13 +105,28 @@ section {
   display: table;
 }
 
-#main-page {
+.main-page nav {
   position: absolute;
   width: 100%;
   top: 45%;
   text-align: center;
   font-size: 50px;
   font-family: "Times New Roman", Times, serif;
+}
+
+.main-page a {
   margin: 30px;
+}
+
+.main-page body {
   background-color: antiquewhite;
+}
+
+.main-page h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  bottom: 60%;
+  font-size: 50px;
 }
