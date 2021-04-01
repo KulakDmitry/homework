@@ -1,0 +1,47 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  background: #000;
+  color: #f7f7f7;
+  font-size: 1.3em;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 0 10px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.column {
+  border: 1px solid #666;
+  background: #343436;
+  padding: 15px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+}
+
+.one {
+  flex: 100%;
+}
+
+.half {
+  flex: 50%;
+}
+
+.one-third {
+  flex: 33.33%;
+}
+
+.one-fourth {
+  flex: 25%;
+}
+
+.two-thirds {
+  flex: 66.66%;
+}
